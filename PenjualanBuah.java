@@ -37,8 +37,8 @@ public class PenjualanBuah {
 
         avg = sum / terjual.length;
         System.out.println();
-        System.out.println("Penjualan terbanyak sebanyak "+terjual[0]+" buah");
-        System.out.println("Penjualan terkecil sebanyak "+terjual[terjual.length-1]+" buah");
+        System.out.println("Penjualan terbanyak sebanyak "+terjual[terjual.length-1]+" buah");
+        System.out.println("Penjualan terkecil sebanyak "+terjual[0]+" buah");
         System.out.println("Dengan rata rata penjualan adalah "+avg+" buah perhari");
     }
 }
